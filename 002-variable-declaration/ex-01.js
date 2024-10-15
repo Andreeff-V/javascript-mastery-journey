@@ -7,4 +7,4 @@ console.log(firstName + " " + lastName + ", " + age + " y.o.");
 
 console.log(firstName);
 console.log(`${firstName} ${lastName}, ${age} y.o.`);
-console.log('${firstName} ${lastName}, ${age} y.o.');
+console.log("${firstName} ${lastName}, ${age} y.o.");
