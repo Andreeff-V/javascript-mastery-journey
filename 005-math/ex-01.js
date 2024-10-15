@@ -34,4 +34,23 @@ console.log(`Десятичный логарифм числа 100: ${Math.log10(
 console.log(`Минимальное число из (1, 2, 3): ${Math.min(1, 2, 3)}`);
 console.log(`Максимальное число из (1, 2, 3): ${Math.max(1, 2, 3)}`);
 
-Math.
+let minutes = 4669
+let hour = Math.floor(minutes / 60)
+console.log(hour)
+
+
+let fahrenheit = 100
+
+let celsius = (5 / 9) * (fahrenheit - 32)
+console.log(celsius);
+
+let a1 = Number.isNaN(0 / 0);
+
+let a2 = Number.isNaN(NaN);
+
+let a3 = isNaN(0 / 0);
+
+let a4 = Number.isNaN("NaN");
+
+let a5 = Number.isNaN(undefined);
+console.log(a1, a2, a3, a4, a5);
